@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="cover cover-left"></div>
-        <div class="cover cover-right"></div>
+        <div class="cover cover-right turn"></div>
+        <div class="book">
+            <!-- profile page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUpsDK5dkH7envHCdUECqq0XzCWK1Dv96XcQ&s"
+                        alt="">
+                    <h1>Anshul</h1>
+                    <h3>Web Developer</h3>
+
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <p>hi, I'm Anshul Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur est porro
+                        aspernatur itaque velit, reiciendis, debitis recusandae culpa accusamus et ducimus facere fugit
+                        maxime alias tempora, incidunt veniam exercitationem rerum.</p>
+
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contactt-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page 1 & 2 -->
+            <div class="book-page page-right" id="turn-1">
+                <!-- page 1 (work experience) -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="fa-solid fa-calendar-days"></i>2020-2021</span>
+                            <h3></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- page 2 (education) -->
+                <div class="page-back"></div>
+            </div>
+
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
