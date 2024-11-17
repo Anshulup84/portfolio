@@ -206,7 +206,7 @@
             </div>
 
             <!-- page 5 & 6 -->
-            <div class="book-page page-right" id="turn-3">
+            <div class="book-page page-right turn" id="turn-3">
                 <!-- page 5 (Latest project of my portfolio) -->
                 <div class="page-front">
                     <h1 class="title">Latest Project</h1>
@@ -233,12 +233,26 @@
                             </div>
                     </div>
 
-                    
+                    <span class="number-page">5</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
                 </div>
 
                 <!-- page 6 (Contact me) -->
                 <div class="page-back">
                     <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
                 </div>
             </div>
 
