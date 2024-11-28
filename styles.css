@@ -495,6 +495,7 @@ body {
 
   *{
     scroll-behavior: smooth;
+    
   }
 
   body{
@@ -742,6 +743,7 @@ body {
   background-color: #52d6b4; /* Slightly darker accent on hover */
   transform: scale(1.05); /* Subtle scaling effect */
 }
+
 
 }
 
